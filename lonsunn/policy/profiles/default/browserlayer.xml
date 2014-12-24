@@ -2,8 +2,8 @@
     <!-- Enable the Diazo960 Theme layer when installed -->
     
     <layer
-        name="hjzgb.policy"
-        interface="hjzgb.policy.browser.interfaces.IThemeSpecific"
+        name="lonsunn.policy"
+        interface="lonsunn.policy.browser.interfaces.IThemeSpecific"
         />
 
 </layers>

@@ -2,8 +2,8 @@
     
     <!-- Disable the Theme layer when uninstalled -->
     <layer
-        name="hjzgb.policy"
-        interface="hjzgb.policy.browser.interfaces.IThemeSpecific"
+        name="lonsunn.policy"
+        interface="lonsunn.policy.browser.interfaces.IThemeSpecific"
         remove="True"
         />    
 

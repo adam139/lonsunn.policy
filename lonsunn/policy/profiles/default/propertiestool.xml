@@ -6,7 +6,7 @@
 	<element value="index.htm"/>
 	<element value="FrontPage"/>
 	</property>
-  <property name="default_language" type="string">zh-tw</property>
+  <property name="default_language" type="string">zh-cn</property>
  </object>
  <object name="navtree_properties" meta_type="Plone Property Sheet">
   <property name="enable_livesearch" type="boolean">False</property>  

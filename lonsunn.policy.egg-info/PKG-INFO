@@ -1,0 +1,27 @@
+Metadata-Version: 1.1
+Name: lonsunn.policy
+Version: 1.0
+Summary: A plone site policy for Lonsunn website
+Home-page: https://github.com/collective/
+Author: Adam tang
+Author-email: yuejun.tang@gmail.com
+License: GPL
+Description: Introduction
+        ============
+        
+        
+        
+        This product may contain traces of nuts.
+        
+        Changelog
+        =========
+        
+        1.0dev (unreleased)
+        -------------------
+        
+        - Initial release
+        
+Keywords: python plone
+Platform: UNKNOWN
+Classifier: Framework :: Plone
+Classifier: Programming Language :: Python

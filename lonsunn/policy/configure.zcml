@@ -17,7 +17,7 @@
   <!-- -*- extra stuff goes here -*- -->
   <genericsetup:registerProfile
       name="uninstall"
-      title="lonsunn.policy"
+      title="uninstall lonsunn.policy"
       directory="profiles/uninstall"
       description="Uninstalls lonsunn.policy package"
       provides="Products.GenericSetup.interfaces.EXTENSION"

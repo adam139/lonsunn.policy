@@ -1,6 +1,6 @@
 require([
-  'jquery','roll','ajax-fetchimg','bootstrap-carousel','bootstrap-tabs'
-], function($,roll,ajaximg,carousel,tabs) {
+  'jquery','bootstrap-carousel','bootstrap-tabs'
+], function($,carousel,tabs) {
   'use strict';
 $(document).ready(function(){ 
 	$(".nav-tabs a").mouseover(function (e) {
@@ -14,8 +14,8 @@ $(document).ready(function(){
 		  return false;
 		});	
 	//rolltext(".roll-wrapper");
-	var root = $("#roll_chanpin").attr("data-root");
-	var ajaxurl = root + "/gongludongtai/tupianxinwen/@@barsview_mini";
-	ajaxfetchimg("roll_chanpin", ajaxurl, ".roll_image", 1);
+	//var root = $("#roll_chanpin").attr("data-root");
+	//var ajaxurl = root + "/gongludongtai/tupianxinwen/@@barsview_mini";
+	//ajaxfetchimg("roll_chanpin", ajaxurl, ".roll_image", 1);
 	});
 });

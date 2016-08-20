@@ -1,0 +1,61 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: xtshzz.policy\n"
+"POT-Creation-Date: 2016-08-20 02:45+0000\n"
+"PO-Revision-Date: 2015-02-16 20:49+0800\n"
+"Last-Translator: adam <yuejun.tang@gmail.com>\n"
+"Language-Team: 315ok.org <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=1; plural=0\n"
+"Language-Code: zh-cn\n"
+"Language-Name: Chinese\n"
+"Preferred-Encodings: utf-8 latin1\n"
+"Domain: xtshzz.policy\n"
+
+#: ./browser/templates/homepage.pt:75
+msgid "agent product"
+msgstr ""
+
+#: ./browser/templates/homepage.pt:103
+msgid "contact info"
+msgstr ""
+
+#: ./browser/templates/homepage.pt:96
+msgid "employment ad"
+msgstr ""
+
+#: ./browser/templates/homepage.pt:82
+msgid "events info"
+msgstr ""
+
+#. Default: "新产品"
+#: ./browser/templates/homepage.pt:124
+msgid "new products"
+msgstr "新产品"
+
+#. Default: "新闻"
+#: ./browser/templates/homepage.pt:164
+msgid "news"
+msgstr "新闻"
+
+#. Default: "产品应用"
+#: ./browser/templates/homepage.pt:26
+msgid "products application"
+msgstr "产品应用"
+
+#: ./browser/templates/homepage.pt:89
+msgid "quick order"
+msgstr ""
+
+#. Default: "快捷通道"
+#: ./browser/templates/homepage.pt:64
+msgid "shortcut channel"
+msgstr "快捷通道"
+
+#. Default: "技术交流"
+#: ./browser/templates/homepage.pt:205
+msgid "technology communication"
+msgstr "技术交流"
+

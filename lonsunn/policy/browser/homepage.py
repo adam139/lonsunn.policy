@@ -14,6 +14,11 @@ class FrontpageView(baseview):
         self.request = request
         add_resource_on_request(self.request, 'xtgl-homepage')
         
+    def navroot_path(self):
+        "get navigation root path"
+        path = '/'.join(self.context.getPhysicalPath())
+        return path
+        
     
     def carouselid(self):
         return "carouselid"
@@ -70,19 +75,23 @@ class FrontpageView(baseview):
 </div>
         """ 
         
+        sepath= self.navroot_path()
         if id ==None:
             braindata = self.catalog()({'object_provides':Iproduct.__identifier__, 
                                     'b_start':0,
                                     'b_size':3,
+                                    'path':sepath,
                              'sort_order': 'reverse',
                              'sort_on': 'created'})
         else:
-            folder = self.catalog()({'object_provides':Iproductfolder.__identifier__, 
+            folder = self.catalog()({'object_provides':Iproductfolder.__identifier__,
+                                     'path':sepath, 
                                     'id':id})
             if folder==None:
                 braindata = self.catalog()({'object_provides':Iproduct.__identifier__, 
                                     'b_start':0,
                                     'b_size':3,
+                                    'path':sepath,
                              'sort_order': 'reverse',
                              'sort_on': 'created'})
             else:
@@ -146,7 +155,27 @@ class FrontpageView(baseview):
         context = self.getOrgnizationFolder()
         return context.absolute_url()
     
-              
+# collection
+
+    @memoize
+    def collection(self,target_collection,limit):
+        """   target_collection collection id for multilingual site    """
+#        collection_path = target_collection
+        sepath= self.navroot_path()
+        if not target_collection:
+            return None
+        queries = {'portal_type':'Collection','path':sepath,'id':target_collection}
+        ctobj = self.catalog()(queries)
+#         import pdb
+#         pdb.set_trace()
+        if bool(ctobj):
+                # pass on batching hints to the catalog
+            braindata = ctobj[0].getObject().queryCatalog(batch=True, b_size=limit, sort_on="created")
+#             import pdb
+#             pdb.set_trace()
+        else:           
+            braindata = None
+        return braindata               
         
                
         

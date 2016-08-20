@@ -5,7 +5,7 @@
     xmlns:genericsetup="http://namespaces.zope.org/genericsetup"
     i18n_domain="lonsunn.policy">
 
-
+  <i18n:registerTranslations directory="locales" />
 
   <genericsetup:registerProfile
       name="default"

@@ -30,9 +30,6 @@ class DropdownQueryBuilder(NavtreeQueryBuilder):
 
     def __init__(self, context):
         NavtreeQueryBuilder.__init__(self, context)
-#         dropdown_properties = getToolByName(
-#             context, 'portal_properties').dropdown_properties
-#         dropdown_depth = dropdown_properties.getProperty('dropdown_depth', 3)
         dropdown_depth = 1
         self.query['path'] = {'query': '/'.join(context.getPhysicalPath()),
                               'navtree_start': 1,
@@ -124,6 +121,8 @@ class DropdownMenuViewlet(common.GlobalSectionsViewlet):
 #         self.enable_parent_clickable = self.dropdown_properties.getProperty(
 #             'enable_parent_clickable', True)
         self.enable_parent_clickable = True
+#         import pdb
+#         pdb.set_trace()
         self.navroot_path = getNavigationRoot(context)
         self.data = Assignment(root_uid=self.navroot_path)
 

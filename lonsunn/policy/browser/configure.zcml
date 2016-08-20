@@ -9,13 +9,27 @@
   		directory="static" />
   		 
   <browser:page
-      for="Products.CMFCore.interfaces.ISiteRoot"
+      for="plone.app.layout.navigation.interfaces.INavigationRoot"
       name="index.html"
       class=".homepage.FrontpageView"
       permission="zope.Public"
       layer=".interfaces.IThemeSpecific"       
       template="templates/homepage.pt"
-/>      
+      menu="plone_displayviews"
+      title="Chinese view"      
+/>
+<!--
+  <browser:page
+      for="plone.app.layout.navigation.interfaces.INavigationRoot"
+      name="index_en.html"
+      class=".homepage.FrontpageView"
+      permission="zope.Public"
+      layer=".interfaces.IThemeSpecific"       
+      template="templates/homepage_en.pt"
+      menu="plone_displayviews"
+      title="English view"      
+/>   
+-->    
   <browser:page
       for="*"
       name="footer"

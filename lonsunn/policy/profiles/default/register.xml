@@ -7,16 +7,16 @@
       </value>
       <value key="deps">jquery</value>
  </records> 
-<!--
-<records prefix="plone.resources/xtgl-homepage"
+
+<records prefix="plone.resources/lonsunn-homepage"
           interface='Products.CMFPlone.interfaces.IResourceRegistry'>
-    <value key="js">++resource++xtgl.policy/homepage-custom.js</value>          
+    <value key="js">++resource++lonsunn.policy/homepage-custom.js</value>          
     <value key="css">
-      <element>++resource++xtgl.policy/homepage.css</element>
+      <element>++resource++lonsunn.policy/homepage.css</element>
     </value>
     <value key="deps">jquery</value>
 </records> 
--->	
+	
   <record name="plone.app.theming.interfaces.IThemeSettings.absolutePrefix" interface="plone.app.theming.interfaces.IThemeSettings" field="absolutePrefix">
     <field type="plone.registry.field.TextLine">
       <description xmlns:ns0="http://xml.zope.org/namespaces/i18n" ns0:domain="plone" ns0:translate="convert_relative_url">Convert relative URLs in the theme file to absolute paths using this prefix.</description>

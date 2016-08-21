@@ -7,7 +7,12 @@
       </value>
       <value key="deps">jquery</value>
  </records> 
+  <records prefix="plone.resources/bootstrap-tabs"
+            interface='Products.CMFPlone.interfaces.IResourceRegistry'>
+      <value key="js">++plone++static/components/bootstrap/js/tab.js</value>
 
+      <value key="deps">jquery</value>
+ </records>
 <records prefix="plone.resources/lonsunn-homepage"
           interface='Products.CMFPlone.interfaces.IResourceRegistry'>
     <value key="js">++resource++lonsunn.policy/homepage-custom.js</value>          

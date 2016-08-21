@@ -22,7 +22,7 @@
   				<!-- Nav tabs -->
   				
   				<ul  class="nav nav-tabs kuputab-selectors row" role="tablist">
-    				<li role="presentation" class="active col-xs-4">
+    				<li role="presentation" class="active">
     					<a href="#chanpinyingyong" aria-controls="chanpinyingyong" role="tab" data-toggle="tab"
     						tal:attributes="data-js-target python:p + '/pub/sqls/chanpinyingyong'" 
     						i18n:translate="products application">products application</a>
@@ -60,7 +60,7 @@
 				<div role="tabpanel" class="kuputab-container">
   				<!-- Nav tabs -->
   				<ul  class="nav nav-tabs kuputab-selectors row" role="tablist">
-    				<li role="kuaijietongdao" class="active col-xs-6">
+    				<li role="kuaijietongdao" class="active">
     					<a href="#tongzhigonggao" aria-controls="kuaijietongdao" role="tab" data-toggle="tab"
     						tal:attributes="data-js-target python:p" 
     						i18n:translate="shortcut channel">shortcut channel</a>
@@ -74,35 +74,35 @@
     				<li class="portletItem odd">
 					<a class="shortcut-agent-product" 
 						title="agent product" 
-						tal:attributes="href:python p + '/'"
+						tal:attributes="href python: p + '/services/agent'"
 						i18n:attributes="title"
 						i18n:translate="agent product">agent product</a>                    		
     				</li>
     				<li class="portletItem even">
 					<a class="shortcut-event" 
 						title="events info" 
-						tal:attributes="href:python p + '/'"
+						tal:attributes="href python: p + '/events'"
 						i18n:attributes="title"
 						i18n:translate="events info">events info</a>               		
     				</li>    				
     				<li class="portletItem odd">
 					<a class="shortcut-order" 
 						title="quick order" 
-						tal:attributes="href:python p + '/'"
+						tal:attributes="href python: p + '/services/subscriber'"
 						i18n:attributes="title"
 						i18n:translate="quick order">quick order</a>               		
     				</li>
     				<li class="portletItem even">
 					<a class="shortcut-employment" 
 						title="employment ad" 
-						tal:attributes="href:python p + '/'"
+						tal:attributes="href python: p + '/services/employing'"
 						i18n:attributes="title"
 						i18n:translate="employment ad">employment ad</a>                    		
     				</li>    				    				 
     				<li class="portletItem odd">
 					<a class="shortcut-contact" 
 						title="contact info" 
-						tal:attributes="href:python p + '/'"
+						tal:attributes="href python: p + '/services/contactus'"
 						i18n:attributes="title"
 						i18n:translate="contact info">contact info</a>               		
     				</li>     				
@@ -120,7 +120,7 @@
   				<!-- Nav tabs -->
   				
   				<ul  class="nav nav-tabs kuputab-selectors row" role="tablist">
-    				<li role="presentation" class="active col-xs-4">
+    				<li role="presentation" class="active">
     					<a href="#xinchanpin" aria-controls="xinchanpin" role="tab" data-toggle="tab"
     						tal:attributes="data-js-target python:p + ' /pub/sqls/xinchanpin'" 
     						i18n:translate="new products">new products</a>
@@ -160,7 +160,7 @@
   				
   				<ul  class="nav nav-tabs kuputab-selectors row" role="tablist">
 
-    				<li role="presentation" class="active col-xs-4">
+    				<li role="presentation" class="active">
     					<a href="#xinwen" aria-controls="xinwen" role="tab" data-toggle="tab"
     						tal:attributes="data-js-target python:p + '/pub/sqls/xinwen'" 
     						i18n:translate="news">news</a>
@@ -201,7 +201,7 @@
   				
   				<ul  class="nav nav-tabs kuputab-selectors row" role="tablist">
 
-    				<li role="presentation" class="active col-xs-4">
+    				<li role="presentation" class="active">
     					<a href="#jishujiaoliu" aria-controls="jishujiaoliu" role="tab" data-toggle="tab"
     						tal:attributes="data-js-target python:p + '/pub/sqls/jishujiaoliu'" 
     						i18n:translate="technology communication">technology communication</a>

@@ -12,7 +12,7 @@ class FrontpageView(baseview):
         # Each view instance receives context and request as construction parameters
         self.context = context
         self.request = request
-        add_resource_on_request(self.request, 'xtgl-homepage')
+        add_resource_on_request(self.request, 'lonsunn-homepage')
         
     def navroot_path(self):
         "get navigation root path"

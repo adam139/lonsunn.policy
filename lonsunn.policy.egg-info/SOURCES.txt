@@ -14,4 +14,7 @@ lonsunn.policy.egg-info/top_level.txt
 lonsunn/policy/__init__.py
 lonsunn/policy/tests.py
 lonsunn/policy/browser/__init__.py
+lonsunn/policy/browser/common.py
+lonsunn/policy/browser/dropdown.py
+lonsunn/policy/browser/homepage.py
 lonsunn/policy/browser/interfaces.py

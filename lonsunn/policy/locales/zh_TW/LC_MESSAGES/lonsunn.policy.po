@@ -9,53 +9,53 @@ msgstr ""
 "Content-Type: text/plain; charset=utf-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=1; plural=0\n"
-"Language-Code: zh-cn\n"
+"Language-Code: zh-tw\n"
 "Language-Name: Chinese\n"
 "Preferred-Encodings: utf-8 latin1\n"
 "Domain: lonsunn.policy\n"
 
 #: ./browser/templates/homepage.pt:75
 msgid "agent product"
-msgstr ""
+msgstr "產品袋裡"
 
 #: ./browser/templates/homepage.pt:103
 msgid "contact info"
-msgstr ""
+msgstr "聯繫信息"
 
 #: ./browser/templates/homepage.pt:96
 msgid "employment ad"
-msgstr ""
+msgstr "招聘信息"
 
 #: ./browser/templates/homepage.pt:82
 msgid "events info"
-msgstr ""
+msgstr "活動信息"
 
 #. Default: "新产品"
 #: ./browser/templates/homepage.pt:124
 msgid "new products"
-msgstr ""
+msgstr "新產品"
 
 #. Default: "新闻"
 #: ./browser/templates/homepage.pt:164
 msgid "news"
-msgstr ""
+msgstr "新聞"
 
 #. Default: "产品应用"
 #: ./browser/templates/homepage.pt:26
 msgid "products application"
-msgstr ""
+msgstr "產品應用"
 
 #: ./browser/templates/homepage.pt:89
 msgid "quick order"
-msgstr ""
+msgstr "快速訂單"
 
 #. Default: "快捷通道"
 #: ./browser/templates/homepage.pt:64
 msgid "shortcut channel"
-msgstr ""
+msgstr "快捷通道"
 
 #. Default: "技术交流"
 #: ./browser/templates/homepage.pt:205
 msgid "technology communication"
-msgstr ""
+msgstr "技術交流"
 

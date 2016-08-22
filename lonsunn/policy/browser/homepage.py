@@ -87,7 +87,7 @@ class FrontpageView(baseview):
             folder = self.catalog()({'object_provides':Iproductfolder.__identifier__,
                                      'path':sepath, 
                                     'id':id})
-            if folder==None:
+            if not bool(folder):
                 braindata = self.catalog()({'object_provides':Iproduct.__identifier__, 
                                     'b_start':0,
                                     'b_size':3,

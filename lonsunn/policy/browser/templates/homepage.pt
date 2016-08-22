@@ -15,7 +15,7 @@
     			            toLocalizedTime nocall:plone_view/toLocalizedTime">      	
        <div class="row row-1">
          <div class="col-xs-12 col-md-4">
-         	<div tal:replace="structure python: view.carouselresult()">outer</div>        	
+         	<div tal:replace="structure python: view.carouselresult(id='hot')">outer</div>        	
          </div>          
          <div class="col-xs-12 col-md-4 tabPortlet">
 				<div role="tabpanel" class="kuputab-container">

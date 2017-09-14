@@ -117,6 +117,7 @@ class FrontpageView(baseview):
             outhtml = ''.join([outhtml,out])   # quick concat string
             objurl = braindata[i].getURL()
             linkurl = braindata[i].linkurl
+            if not bool(linkurl):linkurl = objurl
             objtitle = safe_unicode(braindata[i].Title)
             
 

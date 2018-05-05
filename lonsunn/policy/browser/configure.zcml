@@ -7,7 +7,7 @@
  	<browser:resourceDirectory
   		name="lonsunn.policy"
   		directory="static" />
-  		 
+  <include file="caching.zcml" /> 		 
   <browser:page
       for="plone.app.layout.navigation.interfaces.INavigationRoot"
       name="index.html"
